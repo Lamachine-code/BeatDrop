@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "title": "Worldwide Hits (Demo)",
+  "description": "Demo playlist for testing BeatDrop. YouTube IDs should be verified (see README).",
+  "category": "pop",
+  "language": "EN",
+  "difficulty": 1,
+  "tags": [
+    "demo",
+    "hits"
+  ],
+  "coverUrl": null,
+  "tracks": [
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "startTime": 43,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Never Gonna Give You Up",
+        "Rick Astley",
+        "Rick Roll",
+        "Rickroll"
+      ],
+      "displayTitle": "Rick Astley - Never Gonna Give You Up",
+      "sourceTitle": "Never Gonna Give You Up",
+      "difficulty": 1,
+      "hint": "It will never give you up"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Bohemian Rhapsody",
+        "Queen"
+      ],
+      "displayTitle": "Queen - Bohemian Rhapsody",
+      "sourceTitle": "Bohemian Rhapsody",
+      "difficulty": 1,
+      "hint": "Is this the real life ?"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=hTWKbfoikeg",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Smells Like Teen Spirit",
+        "Nirvana"
+      ],
+      "displayTitle": "Nirvana - Smells Like Teen Spirit",
+      "sourceTitle": "Smells Like Teen Spirit",
+      "difficulty": 1,
+      "hint": "Kurt Cobain's band"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Shape of You",
+        "Ed Sheeran"
+      ],
+      "displayTitle": "Ed Sheeran - Shape of You",
+      "sourceTitle": "Shape of You",
+      "difficulty": 1,
+      "hint": "A shape that suits you"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Uptown Funk",
+        "Mark Ronson",
+        "Bruno Mars"
+      ],
+      "displayTitle": "Mark Ronson ft. Bruno Mars - Uptown Funk",
+      "sourceTitle": "Uptown Funk",
+      "difficulty": 1,
+      "hint": "Upscale neighborhood funk"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=9bZkp7q19f0",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Gangnam Style",
+        "Psy"
+      ],
+      "displayTitle": "PSY - Gangnam Style",
+      "sourceTitle": "Gangnam Style",
+      "difficulty": 1,
+      "hint": "The most danced video of 2012"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Despacito",
+        "Luis Fonsi"
+      ],
+      "displayTitle": "Luis Fonsi - Despacito",
+      "sourceTitle": "Despacito",
+      "difficulty": 1,
+      "hint": "Slowly, in Spanish"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=RgKAFK5djSk",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "See You Again",
+        "Wiz Khalifa",
+        "Charlie Puth"
+      ],
+      "displayTitle": "Wiz Khalifa ft. Charlie Puth - See You Again",
+      "sourceTitle": "See You Again",
+      "difficulty": 1,
+      "hint": "Tribute in Fast & Furious 7"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=djV11Xbc914",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Take On Me",
+        "a-ha",
+        "aha"
+      ],
+      "displayTitle": "a-ha - Take On Me",
+      "sourceTitle": "Take On Me",
+      "difficulty": 1,
+      "hint": "Half live action, half animated video"
+    },
+    {
+      "youtubeUrl": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
+      "startTime": 0,
+      "duration": 25,
+      "acceptedAnswers": [
+        "Billie Jean",
+        "Michael Jackson"
+      ],
+      "displayTitle": "Michael Jackson - Billie Jean",
+      "sourceTitle": "Billie Jean",
+      "difficulty": 1,
+      "hint": "The King of Pop"
+    }
+  ]
+}
