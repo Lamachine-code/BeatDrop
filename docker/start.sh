@@ -6,10 +6,11 @@ set -Eeuo pipefail
 # Only substitute PORT: Nginx variables such as $host must remain untouched.
 envsubst '${PORT}' < /etc/nginx/templates/default.conf.template > /etc/nginx/conf.d/default.conf
 
-pnpm --filter @beatdrop/realtime start &
+# PORT is reserved by Render for the public Nginx listener.
+PORT=4000 pnpm --filter @beatdrop/realtime start &
 REALTIME_PID=$!
 
-pnpm --filter @beatdrop/web start -- --hostname 127.0.0.1 &
+pnpm --filter @beatdrop/web exec next start --hostname 127.0.0.1 --port 3000 &
 WEB_PID=$!
 
 nginx -g 'daemon off;' &
