@@ -11,6 +11,7 @@ RUN corepack enable \
     && rm -f /etc/nginx/sites-enabled/default
 
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml turbo.json ./
+COPY tsconfig.base.json ./
 COPY apps ./apps
 COPY packages ./packages
 
