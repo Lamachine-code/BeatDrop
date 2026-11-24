@@ -23,8 +23,6 @@ ENV NEXT_PUBLIC_REALTIME_URL=$NEXT_PUBLIC_REALTIME_URL
 RUN pnpm build
 
 ENV NODE_ENV=production
-ENV REALTIME_PORT=4000
-
 COPY docker/nginx.conf.template /etc/nginx/templates/default.conf.template
 COPY docker/start.sh /app/docker/start.sh
 RUN chmod +x /app/docker/start.sh
